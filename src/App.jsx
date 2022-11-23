@@ -1,3 +1,5 @@
+import React from 'react';
+import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Loader from './components/Loader';
 import Logo from './components/Logo';
@@ -9,16 +11,22 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
+const [loading, setLoading] = useState(false);
 
+useEffect(() => {
+  setLoading(true)
+  setTimeout(() => {
+  setLoading(false)
+   }, 8000 )
+}, []);
   return (
     <div>
         <Navbar />
-         {/* <Loader />
-         <Logo /> */}
+         {/* <Logo /> */}
          <Intro />
          <About />
          <Portfolio />
-         {/* <Experience /> */}
+         <Experience />
          <Contact />
          <Footer />
      </div>

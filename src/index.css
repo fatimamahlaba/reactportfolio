@@ -91,34 +91,113 @@ ul.skills-list li::before {
     .project-details ul {
       display: flex;
       margin-top: 20px;
+      
     }
 
       .project-details li {
         margin-right: 20px;
         color: #aaa;
         font-family: monospace;
+        padding-left: 30px;
       }
 
       .project-img {
         position: relative;
         z-index: -1;
-        background-color: #64ffda;
-        background: linear-gradient(0.4turn, #64ffda, #64ff8d);
         border-radius: 2px;
         grid-column: 6 / -1;
         grid-row: 1 / -1;
       }
-        .project-img :before {
-          content: "";
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          z-index: 3;
-          background-color: #0a192f;
-          mix-blend-mode: screen;
-          border-radius: 2px;
-        }
+     
+
+      a {
+        display: inline-block;
+        color: inherit;
+        text-decoration: none;
+        text-decoration-skip-ink: auto;
+        transition: color 0.25s ease;
+     }
+      p {
+        margin: 0;
+     }
+      .container {
+        position: relative;
+        margin: 20px auto;
+        padding: 20px;
+        width: 500px;
+        display: flex;
+        align-items: flex-start;
+     }
+      .container .tabs {
+        display: block;
+        position: relative;
+        z-index: 3;
+        width: max-content;
+     }
+      .container .tabs .tab {
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 14px;
+        padding: 10px 0;
+        transition: all 0.25s ease;
+        border-left: 2px solid #ccc;
+     }
+      .container .tabs .tab:hover {
+        color: #4f2cca;
+        background-color: rgba(79, 44, 202, 0.1);
+     }
+      .container .tabs .tab.active {
+        color: #4f2cca;
+     }
+      .container .tabs .tab.tab-1.active ~ .highlighter {
+        transform: translateY(0px);
+     }
+      .container .tabs .tab.tab-2.active ~ .highlighter {
+        transform: translateY(40px);
+     }
+      .container .tabs .tab.tab-3.active ~ .highlighter {
+        transform: translateY(80px);
+     }
+      .container .tabs .highlighter {
+        display: block;
+        background: #4f2cca;
+        width: 2px;
+        height: 40px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(0);
+        transition: transform 0.2s ease;
+        transition-delay: 0.1s;
+        z-index: 10;
+     }
+      .container .tabs a:first-of-type {
+        border-top-left-radius: 2px;
+     }
+      .container .tabs a:last-of-type {
+        border-top-right-radius: 2px;
+     }
+      .container .content {
+        position: relative;
+        padding: 0 20px;
+     }
+      .container .content__section {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        z-index: 0;
+        transition: opacity 0s ease;
+     }
+      .container .content__section.visible {
+        position: relative;
+        opacity: 1;
+        width: 100%;
+        height: auto;
+        transition: opacity 0.5s ease;
+        z-index: 2;
+     }
+     
+     

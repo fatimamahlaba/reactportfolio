@@ -3,39 +3,51 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const Portfolio = () => {
 
   const projects = [
     {
-      img: "https://cdn.vox-cdn.com/thumbor/w-IFN0FWpN4BGfhZaV9EYqs4nLo=/51x0:977x617/1200x800/filters:focal(51x0:977x617)/cdn.vox-cdn.com/uploads/chorus_image/image/50017015/Screen_Shot_2016-07-04_at_12.37.15_PM.0.0.png",
-      name: "React",
-      github_link: "https://github.com/Sridhar-C-25",
+      img: "https://i.postimg.cc/mZQLDkLM/BMI.png",
+      name: "BMI Culculator",
+      github_link: "https://github.com/fatimamahlaba/BMI-Culculator.git",
       live_link: "https://myreactflix.netlify.app",
     },
     {
-      img: "https://cdn.vox-cdn.com/thumbor/w-IFN0FWpN4BGfhZaV9EYqs4nLo=/51x0:977x617/1200x800/filters:focal(51x0:977x617)/cdn.vox-cdn.com/uploads/chorus_image/image/50017015/Screen_Shot_2016-07-04_at_12.37.15_PM.0.0.png",
-      name: "Job",
-      github_link: "https://github.com/Sridhar-C-25/jobsearchapp",
+      img: "https://i.postimg.cc/C1pyTCf2/POS.png",
+      name: "POS System",
+      github_link: "https://github.com/fatimamahlaba/POS2.git",
       live_link: "https://myjobsearch.netlify.app",
     },
     {
-      img: "https://cdn.vox-cdn.com/thumbor/w-IFN0FWpN4BGfhZaV9EYqs4nLo=/51x0:977x617/1200x800/filters:focal(51x0:977x617)/cdn.vox-cdn.com/uploads/chorus_image/image/50017015/Screen_Shot_2016-07-04_at_12.37.15_PM.0.0.png",
-      name: "Highking",
-      github_link: "https://github.com/Sridhar-C-25/highking",
-      live_link: "https://highking01.netlify.app",
+      img: "https://i.postimg.cc/bNN7hwsq/Reaction-timer.png",
+      name: "Reaction Timer",
+      github_link: "https://github.com/fatimamahlaba/reaction-timer-game.git",
+      live_link: "https://happy-lamport-8e96c8.netlify.app",
     },
     {
-      img: "https://cdn.vox-cdn.com/thumbor/w-IFN0FWpN4BGfhZaV9EYqs4nLo=/51x0:977x617/1200x800/filters:focal(51x0:977x617)/cdn.vox-cdn.com/uploads/chorus_image/image/50017015/Screen_Shot_2016-07-04_at_12.37.15_PM.0.0.png",
-      name: "Nav",
-      github_link:
-        "https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
+      img: "https://i.postimg.cc/pL51WhxM/Urban-roots.png",
+      name: "Capstone Project",
+      github_link: "https://github.com/fatimamahlaba/capstone-frontend.git",
       live_link: "https://reacttailwindnavbar.netlify.app",
     },
     {
-      img: "https://cdn.vox-cdn.com/thumbor/w-IFN0FWpN4BGfhZaV9EYqs4nLo=/51x0:977x617/1200x800/filters:focal(51x0:977x617)/cdn.vox-cdn.com/uploads/chorus_image/image/50017015/Screen_Shot_2016-07-04_at_12.37.15_PM.0.0.png",
-      name: "Vue",
-      github_link: "https://github.com/Sridhar-C-25",
+      img: "https://i.postimg.cc/rstt0kps/Vue-to-do.png",
+      name: "To-do App",
+      github_link: "https://github.com/fatimamahlaba/Todo-app.git",
+      live_link: "https://stalwart-jalebi-078964.netlify.app",
+    },
+    {
+      img: "https://i.postimg.cc/SRpDxDyB/Stopwatch.png",
+      name: "Stop Watch",
+      github_link: "https://github.com/fatimamahlaba/Stopwatch.git",
+      live_link: "https://vuecountry05.netlify.app",
+    },
+    {
+      img: "https://i.postimg.cc/nrcBpY0k/image.png",
+      name: "Client Tournament Bracket",
+      github_link: "https://github.com/fatimamahlaba/tournament-bracket-plugin.git",
       live_link: "https://vuecountry05.netlify.app",
     },
   ];
@@ -55,7 +67,7 @@ const Portfolio = () => {
             spaceBetween={20}
             breakpoints={{
               768: {
-                slidesPerView: 2,
+                slidesPerView: 1,
               },
             }}
             loop={true}
@@ -77,16 +89,16 @@ const Portfolio = () => {
        <h4 className="project-title">{project_info.name}</h4>
        <div className="project-details">
          <p>Lorem ipsum dolor amet you probably haven't heard of them bitters selvage listicle heirloom. Locavore kombucha street art ennui 90's, organic food truck hell of seitan skateboard literally hexagon fixie next level. Lomo salvia yuccie hella roof party echo park vegan four dollar toast cred.</p>
-         <ul>
-           <li href={project_info.github_link}
-                      target="_blank">Shadow</li>
-           <li>Demon</li>
-           <li>Baby</li>
+         <ul className="text-2xl gap-10">
+           <a href={project_info.github_link}
+                      target="_blank" ><FaGithub /></a>
+           <a href={project_info.live_link}
+                      target="_blank" ><FaExternalLinkAlt /></a>
          </ul>
        </div>
      </div>
     
-     <div class="project-img">
+     <div className="project-img">
        <img src= {project_info.img} alt="" />
      </div>
     
