@@ -44,6 +44,16 @@ ul.skills-list li::before {
     margin: 7px;
 }
 
+ul.skill-list li::before {
+  content: "▹";
+  position: absolute;
+  left: 0px;
+  color: rgb(12, 141, 197);
+  line-height: 12px;
+  padding-left: 0px;
+  margin: 5px;
+}
+
 .project-container {
   max-width: 1000px;
   margin: 50px auto;
@@ -126,7 +136,8 @@ ul.skills-list li::before {
         padding: 20px;
         width: 500px;
         display: flex;
-        align-items: flex-start;
+        flex-wrap: wrap;
+        align-items: center;
      }
       .container .tabs {
         display: block;
@@ -142,15 +153,17 @@ ul.skills-list li::before {
         font-size: 14px;
         padding: 10px 0;
         transition: all 0.25s ease;
-        border-left: 2px solid #ccc;
+        /* border-left: 2px solid #ccc; */
+        display: block;
+        margin-bottom: 10px;
      }
       .container .tabs .tab:hover {
-        color: #4f2cca;
-        background-color: rgba(79, 44, 202, 0.1);
+        color: #9a86e3;
+      /* background-color: rgba(79, 44, 202, 0.1); */
      }
-      .container .tabs .tab.active {
+      /* .container .tabs .tab.active {
         color: #4f2cca;
-     }
+     } */
       .container .tabs .tab.tab-1.active ~ .highlighter {
         transform: translateY(0px);
      }
@@ -160,6 +173,9 @@ ul.skills-list li::before {
       .container .tabs .tab.tab-3.active ~ .highlighter {
         transform: translateY(80px);
      }
+     .container .tabs .tab.tab-4.active ~ .highlighter {
+      transform: translateY(100px);
+   }
       .container .tabs .highlighter {
         display: block;
         background: #4f2cca;
@@ -200,4 +216,4 @@ ul.skills-list li::before {
         z-index: 2;
      }
      
-     
+    

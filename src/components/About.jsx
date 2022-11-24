@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
     return (
 <section
-      id="home"
+      id="about"
       className="min-h-screen flex pl-5 pr-5 md:flex-row flex-col items-center" 
     > 
    <div className="flex-1">
