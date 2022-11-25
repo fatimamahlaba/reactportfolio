@@ -32,8 +32,8 @@ function Experience() {
    return (
       
         <section
-           id="Intro"
-            className="flex items-center justify-center flex-col pt-20 pb-6"
+           id="experience"
+            className="min-h-screen flex items-center justify-center flex-col pt-20 pb-6"
                >
                 <div className="text-center">
         <h3 className="text-4xl font-semibold">
