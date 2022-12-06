@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { FaBars } from 'react-icons/fa';
+import logo from '../assets/react.svg';
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
   const [open, setOpen] = useState(false);
   const menuLinks = [
     { name: "HOME", link: "#home" },
+    { name: "LOADER", link: "#Loader" },
     { name: "ABOUT", link: "#about" },
     { name: "PORTFOLIO", link: "#portfolio" },
     { name: "EXPERIENCE", link: "#experience" },
@@ -26,9 +28,10 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-between">
         <div className="mx-7">
-          <h4 className="text-4xl uppercase font-bold">
+          {/* <h4 className="text-4xl uppercase font-bold">
             F<span className="text-cyan-600">ati</span>ma
-          </h4>
+          </h4> */}
+          <img src={logo} className="app-logo" alt="logo" />
         </div>
         <div
           className={` ${

@@ -7,13 +7,13 @@ const Intro = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex pt-20 md:flex-row flex-col items-center"
+      className="min-h-screen pt-20 items-center"
     >
-      <div className="flex-1 flex items-center justify-center h-full">
-        <img src="https://i.postimg.cc/fRh0Pr12/damian-zaleski-RYyr-k3-Ysqg-unsplash.jpg" alt="" className="md:w-11/12 h-full object-cover" />
-      </div>
-      <div className="flex-1">
-        <div className="md:text-left text-center">
+      {/* <div className="flex-1 flex items-center justify-center h-full">
+        <img src="https://i.postimg.cc/0y0W1cbK/Untitled-design-6-removebg-preview.png" alt="" className="photo md:w-11/12 object-cover" />
+      </div> */}
+      <div className="">
+        <div className="md:text-center text-center pt-40">
           <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-white font-bold">
             <span className="text-cyan-600 md:text-6xl text-5xl">
               Hello!
@@ -24,15 +24,14 @@ const Intro = () => {
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
             Fullstack Developer
           </h4><br />
-          {/* <button onclick="document.location='default.asp'" target="_blank" className="btn-primary mt-8">Download CV</button> */}
-
-          
+    
+          {/* modal for cv viewing  */}
           <button
         className="bg-cyan-600 text-white active:bg-cyan-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
         type="button"
         onClick={() => setShowModal(true)}
       >
-        Open regular modal
+        View CV
       </button>
       {showModal ? (
         <>
@@ -66,7 +65,7 @@ const Intro = () => {
                     type="button"
                     onClick={() => setShowModal(false)}
                   >
-                    Save Changes
+                    Download CV
                   </button>
                 </div>
               </div>
@@ -108,7 +107,7 @@ const Intro = () => {
         </div>
     </div>
 </div>
-          <div className="mt-8 text-3xl text-gray-600 hover:text-white cursor-pointer flex items-center md:justify-start justify-center gap-5">
+          <div className="mt-8 text-3xl text-gray-600 hover:text-white cursor-pointer flex items-center md:justify-center justify-center gap-5">
           <a href="https://github.com/fatimamahlaba" target="_blank"><FaGithub /></a>
             <a href="https://www.linkedin.com/in/fatima-mahlaba-197a70224/" target="_blank" ><FaLinkedin /></a>
           </div>

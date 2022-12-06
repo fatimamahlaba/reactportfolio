@@ -6,9 +6,9 @@ import Logo from './components/Logo';
 import Intro from './components/Intro';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
-import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Experience from './components/Experience';
 
 function App() {
 const [loading, setLoading] = useState(false);
@@ -23,10 +23,11 @@ useEffect(() => {
     <div>
         <Navbar />
          {/* <Logo /> */}
+         <Loader />
          <Intro />
          <About />
          <Portfolio />
-         <Experience />
+         <Experience/>
          <Contact />
          <Footer />
      </div>
