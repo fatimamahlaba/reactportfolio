@@ -22,8 +22,7 @@ useEffect(() => {
   return (
     <div>
         <Navbar />
-         {/* <Logo /> */}
-         <Loader />
+         {/* <Loader /> */}
          <Intro />
          <About />
          <Portfolio />

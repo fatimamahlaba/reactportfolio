@@ -20,8 +20,8 @@ const About = () => {
             </ul>
   </div>
 
-       <div id="img" className="flex-1 flex items-center justify-center h-full pt-2 pb-2 border-solid border-2 border-cyan-600 ">
-          <img src="https://i.postimg.cc/fRh0Pr12/damian-zaleski-RYyr-k3-Ysqg-unsplash.jpg" alt="" className="md:w-11/12 h-full object-cover" />
+       <div id="img" className="flex-1 flex items-center justify-center h-full pt-2 pb-2 ">
+          <img src="https://i.postimg.cc/h4YYJ68f/Untitled-design-5-removebg-preview.png" alt="" className="md:w-11/12 h-full object-cover" />
       </div>
 </section>
     );

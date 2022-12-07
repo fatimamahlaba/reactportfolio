@@ -7,13 +7,13 @@ const Intro = () => {
   return (
     <section
       id="home"
-      className="min-h-screen pt-20 items-center"
+      className="min-h-screen flex pt-20 md:flex-row flex-col items-center"
     >
-      {/* <div className="flex-1 flex items-center justify-center h-full">
-        <img src="https://i.postimg.cc/0y0W1cbK/Untitled-design-6-removebg-preview.png" alt="" className="photo md:w-11/12 object-cover" />
-      </div> */}
-      <div className="">
-        <div className="md:text-center text-center pt-40">
+      <div className="flex-1 flex items-center pt-7 justify-center h-full">
+        <img src="https://i.postimg.cc/mr0tKd3h/Untitled-7.png" alt="" className="w-50 h-50" />
+      </div>
+      <div className="flex-1">
+        <div className="md:text-center text-center pt-30">
           <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-white font-bold">
             <span className="text-cyan-600 md:text-6xl text-5xl">
               Hello!
