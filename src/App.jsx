@@ -2,7 +2,6 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Loader from './components/Loader';
-import Logo from './components/Logo';
 import Intro from './components/Intro';
 import About from './components/About';
 import Portfolio from './components/Portfolio';

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FaBars } from 'react-icons/fa';
-import logo from '../assets/logo.svg';
+
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);

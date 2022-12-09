@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-800 text-sm p-1 text-center text-white">
+    <div className="min-w-screen bg-gray-800 text-sm p-1 text-center text-white">
       Copyright © 2022 Fatima Mahlaba Rights reserved.
     </div>
   );

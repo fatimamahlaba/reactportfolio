@@ -7,7 +7,7 @@ const Intro = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex pt-20 md:flex-row flex-col items-center"
+      className="min-h-screen min-w-screen flex pt-20 md:flex-row flex-col items-center"
     >
       <div className="flex-1 flex items-center pt-7 justify-center h-full">
         <img src="https://i.postimg.cc/mr0tKd3h/Untitled-7.png" alt="" className="w-50 h-50" />
@@ -24,7 +24,6 @@ const Intro = () => {
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
             Fullstack Developer
           </h4><br />
-    
           {/* modal for cv viewing  */}
           <button
         className="bg-cyan-600 text-white active:bg-cyan-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
@@ -43,13 +42,8 @@ const Intro = () => {
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">  
                 {/*body*/}
                 <div className="relative p-6 flex-auto">
-                  <p className="my-4 text-slate-500 text-lg leading-relaxed">
-                    I always felt like I could do anything. That’s the main
-                    thing people are controlled by! Thoughts- their perception
-                    of themselves! They're slowed down by their perception of
-                    themselves. If you're taught you can’t do anything, you
-                    won’t do anything. I was taught I could do everything.
-                  </p>
+                {/* <Viewer fileUrl="/path/to/document.pdf" /> */}
+                <img src="https://i.postimg.cc/k5pxt0Dj/Fatima-Mahlaba-Resume.png" alt=""/>
                 </div>
                 {/*footer*/}
                 <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
@@ -65,7 +59,10 @@ const Intro = () => {
                     type="button"
                     onClick={() => setShowModal(false)}
                   >
+                    <a href="Fatima-Mahlaba-Resume.pdf"
+                    download="Fatima-Mahlaba-Resume.pdf">
                     Download CV
+                  </a>
                   </button>
                 </div>
               </div>

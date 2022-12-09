@@ -59,7 +59,7 @@ const Portfolio = () => {
     },
   ];
   return(
-    <section id="portfolio" className="min-h-screen pt-28 text-white">
+    <section id="portfolio" className="min-h-screen min-w-screen pt-28 text-white">
       <div className="text-center">
         <h3 className="text-4xl font-semibold">
           My <span className="text-cyan-600">Projects</span>
@@ -95,7 +95,7 @@ const Portfolio = () => {
        <h4 className="project-title">{project_info.name}</h4>
        <div className="project-details">
          <p className="project-content">{project_info.content}</p>
-         <ul className="text-2xl gap-10">
+         <ul className="text-2xl gap-10 hover:bg-amber-50">
            <a href={project_info.github_link}
                       target="_blank" ><FaGithub /></a>
            <a href={project_info.live_link}
