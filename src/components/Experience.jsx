@@ -1,5 +1,5 @@
 import React from "react";
-// import { FaGraduationCap } from "react-icons/fa";
+import { FaBriefcase, FaCalendarAlt, FaGraduationCap } from "react-icons/fa";
 
 // const Experience = () => {
 //   function _class(name) {
@@ -88,40 +88,146 @@ import React from "react";
 const Experience = () => {
   return (
       <section className="qualification section">
-      <h2 className="section_title"> Qualification</h2>
-      <span className="section_subtitle"> My Personal Journey</span>
+        <div className="text-center">
+        <h3 className="text-4xl font-semibold">
+          My <span className="text-cyan-600">Experience</span>
+        </h3>
+      </div>
+      {/* <h2 className="section_title"> Qualification</h2>
+      <span className="section_subtitle"> My Personal Journey</span> */}
 
       <div className="qualification_container container">
-      <div className="qualification_tabs">
-      <div className="qualification_button button--flex">
-      <i className="uil uil-graduation-cap qualification_ icon"></i>Education 
+      <div className="qualification_tabs mb-2">
+      <div className="qualification_button font-medium qualification_active flex button--flex">
+      <FaGraduationCap /> Education 
       </div>
       
-      <div className="qualification_button button--flex">
-      <i className="uil uil-briefcase-alt qualification_ icon"></i>Experience 
+      <div className="qualification_button font-medium flex button--flex">
+      <FaBriefcase />Experience 
       </div>
       </div>
   
-      <div className="qualification_sections">
-      <div className="qualification_content">
+      <div className="qualification_sections grid grid-cols-1 justify-center">
+      <div className="qualification_content qualification_active">
       <div className="qualification_data">
-       <div></div>
+      <div>
+      <h3 className="qualification_title font-medium">Company</h3>
+      <span className="qualification_subtitle inline-block font-small mb-1">Cput</span>
+      <div className="qualification_calendar  flex font-light">
+      <FaCalendarAlt /> 2021 - Present
+      </div>
+      </div>
+
        <div>
-      <span className="qualification_rounder"></span>
+      <span className="qualification_rounder inline-block bg-cyan-600 w-3 h-3 rounded-full"></span>
       <span className="qualification_line"></span>
       </div>
+       </div>
+
+      <div className="qualification_data">
+       <div></div>
+
       <div>
-      <h3 className="qualification_title"></h3>
-      <span className="section_subtitle">Cput</span>
-      <div className="qualification_calendar">
-      <i className="uil uil-calendar-alt"></i> 2021 - Present
+      <span className="qualification_rounder inline-block bg-cyan-600 w-3 h-3 rounded-full"></span>
+      <span className="qualification_line"></span>
+      </div> 
+
+      <div>
+      <h3 className="qualification_title font-medium">Company</h3>
+      <span className="qualification_subtitle inline-block font-small mb-1">Cput</span>
+      <div className="qualification_calendar font-light">
+      <FaCalendarAlt /> 2021 - Present
       </div>
       </div>
       </div>
+{/* next section in timeline */}
+<div className="qualification_data">
+      <div>
+      <h3 className="qualification_title font-medium">Company</h3>
+      <span className="qualification_subtitle inline-block font-small mb-1">Cput</span>
+      <div className="qualification_calendar font-light">
+      <FaCalendarAlt /> 2021 - Present
+      </div>
+      </div>
+
+       <div>
+      <span className="qualification_rounder inline-block bg-cyan-600 w-3 h-3 rounded-full"></span>
+      <span className="qualification_line"></span>
+      </div>
+       </div>
+
+      <div className="qualification_data">
+       <div></div>
+
+      <div>
+      <span className="qualification_rounder inline-block bg-cyan-600 w-3 h-3 rounded-full"></span>
+      <span className="qualification_line"></span>
+      </div> 
+
+      <div>
+      <h3 className="qualification_title font-medium">Company</h3>
+      <span className="qualification_subtitle inline-block font-small mb-1">Cput</span>
+      <div className="qualification_calendar font-light">
+      <FaCalendarAlt /> 2021 - Present
+      </div>
+      </div>
+      </div>
+      </div>
+{/* start of experience section */}
+
+      <div className="qualification_content">
+      <div className="qualification_data">
+      <div>
+      <h3 className="qualification_title font-medium">Company</h3>
+      <span className="qualification_subtitle inline-block font-small mb-1">Cput</span>
+      <div className="qualification_calendar font-light">
+      <FaCalendarAlt /> 2021 - Present
+      </div>
+      </div>
+
+       <div>
+      <span className="qualification_rounder inline-block bg-cyan-600 w-3 h-3 rounded-full"></span>
+      <span className="qualification_line"></span>
+      </div>
+       </div>
+
+      <div className="qualification_data">
+       <div></div>
+
+      <div>
+      <span className="qualification_rounder inline-block bg-cyan-600 w-3 h-3 rounded-full"></span>
+      <span className="qualification_line"></span>
+      </div> 
+
+      <div>
+      <h3 className="qualification_title font-medium">Company</h3>
+      <span className="qualification_subtitle inline-block font-small mb-1">Cput</span>
+      <div className="qualification_calendar font-light">
+      <FaCalendarAlt /> 2021 - Present
+      </div>
+      </div>
+      </div>
+
+<div className="qualification_data">
+      <div>
+      <h3 className="qualification_title font-medium">Company</h3>
+      <span className="qualification_subtitle inline-block font-small mb-1">Cput</span>
+      <div className="qualification_calendar font-light">
+      <FaCalendarAlt /> 2021 - Present
+      </div>
+      </div>
+
+       <div>
+      <span className="qualification_rounder inline-block bg-cyan-600 w-3 h-3 rounded-full"></span>
+      <span className="qualification_line"></span>
+      </div>
+       </div>
+
+      
       </div>
       </div>
       </div>
       </section>
-  )
-}
+  );
+};
 export default Experience;
