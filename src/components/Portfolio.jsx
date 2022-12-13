@@ -8,7 +8,8 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 const Portfolio = () => {
 
   const projects = [
-    {
+    { 
+      id: 1,
       img: "https://i.postimg.cc/mZQLDkLM/BMI.png",
       content: "This Body Mass Index (BMI) Calculator can be used to calculate BMI value and corresponding weight status while taking age into consideration.",
       name: "BMI Culculator",
@@ -16,6 +17,7 @@ const Portfolio = () => {
       live_link: "https://myreactflix.netlify.app",
     },
     {
+      id: 2,
       img: "https://i.postimg.cc/C1pyTCf2/POS.png",
       content: "This point of sale system is a retail transaction system. In this point of sale, the merchant calculates the amount owed by the customer, and indicates the customer to make payment.",
       name: "POS System",
@@ -23,6 +25,7 @@ const Portfolio = () => {
       live_link: "https://myjobsearch.netlify.app",
     },
     {
+      id: 3,
       img: "https://i.postimg.cc/bNN7hwsq/Reaction-timer.png",
       content: "Reaction timer is a game to test how fast you reacts. This game records if you are too fast or too slow.",
       name: "Reaction Timer",
@@ -30,6 +33,7 @@ const Portfolio = () => {
       live_link: "https://happy-lamport-8e96c8.netlify.app",
     },
     {
+      id: 4,
       img: "https://i.postimg.cc/pL51WhxM/Urban-roots.png",
       content: "Urban roots was my end of module project where I have joined my frontend and backend to create a bloging system for students to register upskilling.",
       name: "Capstone Project",
@@ -37,6 +41,7 @@ const Portfolio = () => {
       live_link: "https://bespoke-churros-4c6b56.netlify.app",
     },
     {
+      id: 5,
       img: "https://i.postimg.cc/rstt0kps/Vue-to-do.png",
       content: "ToDo List App is a app that is used to maintain your day-to-day tasks or list everything that we have to do, with the most important tasks at the top of the list, and the least important tasks at the bottom. It is helpful in planning our daily schedules.",
       name: "To-do App",
@@ -44,6 +49,7 @@ const Portfolio = () => {
       live_link: "https://stalwart-jalebi-078964.netlify.app",
     },
     {
+      id: 6,
       img: "https://i.postimg.cc/SRpDxDyB/Stopwatch.png",
       content: "A stopwatch measures the amount of time that elapses between its activation and deactivation. It can also be called restarted.",
       name: "Stop Watch",
@@ -51,11 +57,18 @@ const Portfolio = () => {
       live_link: "https://vuecountry05.netlify.app",
     },
     {
+      id: 7,
       img: "https://i.postimg.cc/nrcBpY0k/image.png",
       content: "A tournament bracket is a tree diagram that represents the series of games played during a knockout tournament. This is a single-elimination tournament bracket.",
       name: "Client Tournament Bracket",
       github_link: "https://github.com/fatimamahlaba/tournament-bracket-plugin.git",
       live_link: "https://vuecountry05.netlify.app",
+    },
+    {
+      id: 8,
+      img: "https://i.postimg.cc/KcHLq0zq/lcs-design.png",
+      content: "Prototype Design for Life Choices",
+      name: "Figma Design",
     },
   ];
   return(
