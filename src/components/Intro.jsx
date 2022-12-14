@@ -43,7 +43,7 @@ const Intro = () => {
                 {/*body*/}
                 <div className="relative p-6 flex-auto">
                 {/* <Viewer fileUrl="/path/to/document.pdf" /> */}
-                <img src="https://i.postimg.cc/k5pxt0Dj/Fatima-Mahlaba-Resume.png" alt=""/>
+                <img src="https://i.postimg.cc/G2fR1mzZ/Fatima-Mahlaba-Resume.png" alt=""/>
                 </div>
                 {/*footer*/}
                 <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
