@@ -19,12 +19,12 @@ const About = () => {
                  <li>React</li>
                  <li>Wordpress</li>
             </ul>
-            <ul className="flex-1 skill-list">
+            {/* <ul className="flex-1 skill-list">
                  <li>JavaScript</li>
                  <li>TypeScript</li>
                  <li>React</li>
                  <li>Wordpress</li>
-            </ul>
+            </ul> */}
             </div>
   </div>
 
