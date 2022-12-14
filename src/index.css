@@ -246,7 +246,7 @@ ul.skill-list li::before {
       height:100%;
       overflow:hidden;
     }
-    .tabs .tab-content > div > {
+    .tabs .tab-content > div  {
       display:inline-block;
       width:50px;
       height:50px;
@@ -325,8 +325,4 @@ ul.skill-list li::before {
     height: 100%;
     background-color: gray;
     transform: translate(6px, -7px);
-  }
-  #8 {
-    width: 100px;
-    height: 100px;
   }
