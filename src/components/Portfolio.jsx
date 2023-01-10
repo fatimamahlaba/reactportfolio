@@ -14,7 +14,7 @@ const Portfolio = () => {
       content: "This Body Mass Index (BMI) Calculator can be used to calculate BMI value and corresponding weight status while taking age into consideration.",
       name: "BMI Culculator",
       github_link: "https://github.com/fatimamahlaba/BMI-Culculator.git",
-      live_link: "https://myreactflix.netlify.app",
+      live_link: "https://hungry-shirley-17d235.netlify.app",
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ const Portfolio = () => {
       content: "This point of sale system is a retail transaction system. In this point of sale, the merchant calculates the amount owed by the customer, and indicates the customer to make payment.",
       name: "POS System",
       github_link: "https://github.com/fatimamahlaba/POS2.git",
-      live_link: "https://myjobsearch.netlify.app",
+      live_link: "https://peaceful-blackwell-7fd25e.netlify.app",
     },
     {
       id: 3,
@@ -54,13 +54,13 @@ const Portfolio = () => {
       content: "A stopwatch measures the amount of time that elapses between its activation and deactivation. It can also be called restarted.",
       name: "Stop Watch",
       github_link: "https://github.com/fatimamahlaba/Stopwatch.git",
-      live_link: "https://vuecountry05.netlify.app",
+      live_link: "https://affectionate-northcutt-dc4a44.netlify.app",
     },
     {
       id: 7,
       img: "https://i.postimg.cc/nrcBpY0k/image.png",
       content: "A tournament bracket is a tree diagram that represents the series of games played during a knockout tournament. This is a single-elimination tournament bracket.",
-      name: "Tournament Bracket PHP Plugin",
+      name: "Tournament Bracket Plugin",
       github_link: "https://github.com/fatimamahlaba/tournament-bracket-plugin.git",
       // live_link: "",
     },
