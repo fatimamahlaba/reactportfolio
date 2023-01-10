@@ -60,9 +60,9 @@ const Portfolio = () => {
       id: 7,
       img: "https://i.postimg.cc/nrcBpY0k/image.png",
       content: "A tournament bracket is a tree diagram that represents the series of games played during a knockout tournament. This is a single-elimination tournament bracket.",
-      name: "Client Tournament Bracket",
+      name: "Tournament Bracket PHP Plugin",
       github_link: "https://github.com/fatimamahlaba/tournament-bracket-plugin.git",
-      live_link: "https://vuecountry05.netlify.app",
+      // live_link: "",
     },
     {
       id: 8,
