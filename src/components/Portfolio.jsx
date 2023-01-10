@@ -69,6 +69,7 @@ const Portfolio = () => {
       img: "https://i.postimg.cc/MHZ9GT1F/Screenshot-2023-01-10-100735.png",
       content: "Prototype Design for Life Choices",
       name: "Figma Design",
+      live_link: "https://www.figma.com/file/IBbvqqzFmBUjpOyeoaDy2C/Life-Choices-Academy?node-id=406%3A77&t=KHGvhGtjlixgg8nz-0",
     },
   ];
   return(
@@ -108,7 +109,7 @@ const Portfolio = () => {
        <h4 className="project-title">{project_info.name}</h4>
        <div className="project-details">
          <p className="project-content">{project_info.content}</p>
-         <ul className="text-2xl gap-10 hover:bg-amber-50">
+         <ul className="text-2xl gap-10 hover:text-white">
            <a href={project_info.github_link}
                       target="_blank" ><FaGithub /></a>
            <a href={project_info.live_link}
