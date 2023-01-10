@@ -10,7 +10,7 @@ const Experience = () => {
   };
 
   return (
-      <section className="qualification section">
+      <section id="experience" className="qualification section">
         <div className="text-center">
         <h3 className="text-4xl font-semibold">
           My <span className="text-cyan-600">Experience</span>
