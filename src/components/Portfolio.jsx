@@ -66,7 +66,7 @@ const Portfolio = () => {
     },
     {
       id: 8,
-      img: "https://i.postimg.cc/KcHLq0zq/lcs-design.png",
+      img: "https://i.postimg.cc/MHZ9GT1F/Screenshot-2023-01-10-100735.png",
       content: "Prototype Design for Life Choices",
       name: "Figma Design",
     },
