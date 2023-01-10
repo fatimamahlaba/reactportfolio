@@ -34,11 +34,11 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      img: "https://i.postimg.cc/pL51WhxM/Urban-roots.png",
-      content: "Urban roots was my end of module project where I have joined my frontend and backend to create a bloging system for students to register upskilling.",
-      name: "Capstone Project",
-      github_link: "https://github.com/fatimamahlaba/capstone-frontend.git",
-      live_link: "https://bespoke-churros-4c6b56.netlify.app",
+      img: "https://i.postimg.cc/wj1vRYzf/Screenshot-2023-01-10-104538.png",
+      content: "This is the my very first ecommerce store.",
+      name: "Ecommerce Project",
+      github_link: "https://github.com/fatimamahlaba/e-commerce",
+      live_link: "https://lucent-puffpuff-d9f59b.netlify.app",
     },
     {
       id: 5,
