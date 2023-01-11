@@ -84,13 +84,13 @@ const Portfolio = () => {
       name: "Accents",
       live_link: "https://accents.co.za/",
     },
-    // {
-    //   id: 11,
-    //   img: "",
-    //   content: "React",
-    //   name: "Dashboard",
-    //   live_link: "",
-    // },
+    {
+      id: 11,
+      img: "https://i.postimg.cc/BnwLgcZQ/Dashboard.png",
+      content: "React",
+      name: "Dashboard",
+      live_link: "https://github.com/fatimamahlaba/dashboard",
+    },
   ];
   return(
     <section id="portfolio" className="min-h-screen min-w-screen pt-28 text-white">
