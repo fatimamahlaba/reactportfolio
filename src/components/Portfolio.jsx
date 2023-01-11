@@ -11,15 +11,15 @@ const Portfolio = () => {
     { 
       id: 1,
       img: "https://i.postimg.cc/mZQLDkLM/BMI.png",
-      content: "This Body Mass Index (BMI) Calculator can be used to calculate BMI value and corresponding weight status while taking age into consideration.",
-      name: "BMI Culculator",
+      content: "HTML, CSS, Javascript",
+      name: "BMI Calculator",
       github_link: "https://github.com/fatimamahlaba/BMI-Culculator.git",
       live_link: "https://hungry-shirley-17d235.netlify.app",
     },
     {
       id: 2,
       img: "https://i.postimg.cc/C1pyTCf2/POS.png",
-      content: "This point of sale system is a retail transaction system. In this point of sale, the merchant calculates the amount owed by the customer, and indicates the customer to make payment.",
+      content: "Vue",
       name: "POS System",
       github_link: "https://github.com/fatimamahlaba/POS2.git",
       live_link: "https://peaceful-blackwell-7fd25e.netlify.app",
@@ -27,7 +27,7 @@ const Portfolio = () => {
     {
       id: 3,
       img: "https://i.postimg.cc/bNN7hwsq/Reaction-timer.png",
-      content: "Reaction timer is a game to test how fast you reacts. This game records if you are too fast or too slow.",
+      content: "Vue",
       name: "Reaction Timer",
       github_link: "https://github.com/fatimamahlaba/reaction-timer-game.git",
       live_link: "https://happy-lamport-8e96c8.netlify.app",
@@ -35,7 +35,7 @@ const Portfolio = () => {
     {
       id: 4,
       img: "https://i.postimg.cc/wj1vRYzf/Screenshot-2023-01-10-104538.png",
-      content: "This is the my very first ecommerce store.",
+      content: "HTML, CSS, Javascript",
       name: "Ecommerce Project",
       github_link: "https://github.com/fatimamahlaba/e-commerce",
       live_link: "https://lucent-puffpuff-d9f59b.netlify.app",
@@ -43,7 +43,7 @@ const Portfolio = () => {
     {
       id: 5,
       img: "https://i.postimg.cc/rstt0kps/Vue-to-do.png",
-      content: "ToDo List App is a app that is used to maintain your day-to-day tasks or list everything that we have to do, with the most important tasks at the top of the list, and the least important tasks at the bottom. It is helpful in planning our daily schedules.",
+      content: "Vue",
       name: "To-do App",
       github_link: "https://github.com/fatimamahlaba/Todo-app.git",
       live_link: "https://stalwart-jalebi-078964.netlify.app",
@@ -51,7 +51,7 @@ const Portfolio = () => {
     {
       id: 6,
       img: "https://i.postimg.cc/SRpDxDyB/Stopwatch.png",
-      content: "A stopwatch measures the amount of time that elapses between its activation and deactivation. It can also be called restarted.",
+      content: "HTML, CSS, Javascript",
       name: "Stop Watch",
       github_link: "https://github.com/fatimamahlaba/Stopwatch.git",
       live_link: "https://affectionate-northcutt-dc4a44.netlify.app",
@@ -59,18 +59,38 @@ const Portfolio = () => {
     {
       id: 7,
       img: "https://i.postimg.cc/nrcBpY0k/image.png",
-      content: "A tournament bracket is a tree diagram that represents the series of games played during a knockout tournament. This is a single-elimination tournament bracket.",
+      content: "PHP",
       name: "Tournament Bracket Plugin",
       github_link: "https://github.com/fatimamahlaba/tournament-bracket-plugin.git",
-      // live_link: "",
     },
     {
       id: 8,
       img: "https://i.postimg.cc/MHZ9GT1F/Screenshot-2023-01-10-100735.png",
-      content: "Prototype Design for Life Choices",
-      name: "Figma Design",
+      content: "Figma",
+      name: "LCS Design Case Study",
       live_link: "https://www.figma.com/file/IBbvqqzFmBUjpOyeoaDy2C/Life-Choices-Academy?node-id=406%3A77&t=KHGvhGtjlixgg8nz-0",
     },
+    {
+      id: 9,
+      img: "https://i.postimg.cc/137NTdbx/nurturer.png",
+      content: "Wordpress",
+      name: "Nurturer",
+      live_link: "https://nurturer.co.za/",
+    },
+    {
+      id: 10,
+      img: "https://i.postimg.cc/DycPBnhB/accents.png",
+      content: "Wordpress",
+      name: "Accents",
+      live_link: "https://accents.co.za/",
+    },
+    // {
+    //   id: 11,
+    //   img: "",
+    //   content: "React",
+    //   name: "Dashboard",
+    //   live_link: "",
+    // },
   ];
   return(
     <section id="portfolio" className="min-h-screen min-w-screen pt-28 text-white">
